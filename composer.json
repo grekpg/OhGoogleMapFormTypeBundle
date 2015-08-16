@@ -17,8 +17,8 @@
     },
     "autoload": {
         "psr-0": { 
-            "FloFrad\\GoogleMapFormTypeBundle": ""
+            "Oh\\GoogleMapFormTypeBundle": ""
         }
     },
-    "target-dir": "FloFrad/GoogleMapFormTypeBundle"
+    "target-dir": "Oh/GoogleMapFormTypeBundle"
 }
