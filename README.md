@@ -1,14 +1,18 @@
 OhGoogleMapFormTypeBundle
 =========================
 
+This is a fork from ollietb's bundle. Thanks to him.
+
 Set latitude and longitude values on a form using Google Maps. The map includes a search field and a current location link. When a pin is placed or dragged on the map, the latitude and longitude fields are updated.
+
+I added the feature to set an array of 2 pairs of latitudes and longitudes to display a single trip betwwen two points.
 
 Installation
 ------------
 
 This bundle is compatible with Symfony 2.1. Add the following to your `composer.json`:
 
-    "oh/google-map-form-type-bundle": "dev-master"
+    "flofrad/google-map-form-type-bundle": "dev-master"
 
 Register the bundle in your `app/AppKernel.php`:
 
@@ -17,7 +21,7 @@ Register the bundle in your `app/AppKernel.php`:
 public function registerBundles()
     {
         $bundles = array(
-            new Oh\GoogleMapFormTypeBundle\OhGoogleMapFormTypeBundle(),
+            new FloFrad\GoogleMapFormTypeBundle\OhGoogleMapFormTypeBundle(),
             // ...
 ```
 
