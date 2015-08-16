@@ -1,14 +1,14 @@
 {
-    "name": "oh/google-map-form-type-bundle",
+    "name": "flofrad/google-map-form-type-bundle",
     "type": "symfony-bundle",
-    "description": "Set latitude and longitude values on a form using Google Maps",
+    "description": "Set latitude and longitude values on a form using Google Maps or an array to display a trip",
     "keywords": ["google maps", "symfony", "form"],
-    "homepage": "https://github.com/ollieLtd/OhGoogleMapFormTypeBundle",
+    "homepage": "https://github.com/FloFrad/OhGoogleMapFormTypeBundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Ollie Harridge",
-            "email": "code@oll.ie"
+            "name": "Florian Fradin",
+            "email": "flo.frad1@gmail.com"
         }
     ],
     "require": {
@@ -17,8 +17,8 @@
     },
     "autoload": {
         "psr-0": { 
-            "Oh\\GoogleMapFormTypeBundle": ""
+            "FloFrad\\GoogleMapFormTypeBundle": ""
         }
     },
-    "target-dir": "Oh/GoogleMapFormTypeBundle"
+    "target-dir": "FloFrad/GoogleMapFormTypeBundle"
 }
